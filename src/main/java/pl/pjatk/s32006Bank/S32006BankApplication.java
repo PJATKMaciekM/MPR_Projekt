@@ -9,10 +9,6 @@ public class S32006BankApplication {
 	public S32006BankApplication(BankService bankService) {
 		this.bankService = bankService;
 		System.out.println("S32006 Bank Application Started");
-//		bankService.registerClient(3000);
-//		bankService.registerClient(4000);
-//		bankService.pay(0, 500);
-//		bankService.printClient(1);
 	}
 
 	public static void main(String[] args) {
